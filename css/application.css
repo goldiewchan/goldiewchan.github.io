@@ -2,8 +2,8 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  width: 320px;
-  height: 320px;
+  width: 100%;
+  height: 100%;
   border: none;
   font: normal 100%/normal Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
@@ -20,3 +20,27 @@
   -webkit-background-size: 100px 100px;
   background-size: 100px 100px;
 }
+
+#title {
+  background-color: rgba(53, 51, 51, 0.47);
+}
+
+.name h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 100px;
+  font-family: 'Courgette', cursive;
+
+}
+
+.bday h1 {
+  color: white;
+  font-family: 'Tangerine', cursive;
+  font-size: 100px;
+}
+
+#picture .row {
+  margin: 10px;
+}
+
+.blur { width:367; height:459px; -webkit-filter: blur(3px); filter: blur(3px); }
