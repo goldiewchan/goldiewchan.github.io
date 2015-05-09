@@ -1,3 +1,14 @@
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+
+body {
+  padding-top: 85px;
+}
+
 .gradient-pattern {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -28,7 +39,7 @@
 .name h1 {
   color: white;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-family: 'Courgette', cursive;
 
 }
@@ -36,12 +47,13 @@
 .bday h1 {
   color: white;
   font-family: 'Tangerine', cursive;
-  font-size: 1.5em;
+  font-size: 2.25em;
 }
+
 
 .intro {
   color: black;
-  font-size:1.2em;
+  font-size:1.8em;
 }
 
 #picture .row {
@@ -49,3 +61,16 @@
 }
 
 .blur { width:367; height:459px; -webkit-filter: blur(3px); filter: blur(3px); }
+
+.wrapper {
+  min-height: 100%;
+  height auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+  
+}
+
+.footer, .push {
+  height: 4em;
+  clear: both;
+}
